@@ -25,7 +25,7 @@ A microservice architecture implementing CRUD functionality on a chatbot databas
   - Adds new questions & answers using POST (/create)
   - Sent with a JSON body
     {
-      "question": "new question"
+      "question": "new question",
       "reply": "corresponding reply"
     }
   - Does not allow duplicate entries
@@ -35,7 +35,7 @@ A microservice architecture implementing CRUD functionality on a chatbot databas
   - Modifies existing entries using PUT (/update/api/hints/:id)
   - Sent with a JSON 
     {
-      "question": "new question"
+      "question": "new question",
       "reply": "new reply"
     }
   - Required role: Editor, Admin
